@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menjarsFragment">
+
+    <fragment
+        android:id="@+id/menjarsFragment"
+        android:name="com.jordel.projectecafeteria.Home.Menjars.MenjarsFragment"
+        android:label="fragment_menjars"
+        tools:layout="@layout/fragment_menjars" />
+    <fragment
+        android:id="@+id/begudesFragment"
+        android:name="com.jordel.projectecafeteria.Home.Begudes.BegudesFragment"
+        android:label="fragment_begudes"
+        tools:layout="@layout/fragment_begudes" />
+    <fragment
+        android:id="@+id/pagamentFragment"
+        android:name="com.jordel.projectecafeteria.Home.Pagament.PagamentFragment"
+        android:label="fragment_pagament"
+        tools:layout="@layout/fragment_pagament" />
+    <fragment
+        android:id="@+id/postresFragment"
+        android:name="com.jordel.projectecafeteria.Home.Postres.PostresFragment"
+        android:label="fragment_postres"
+        tools:layout="@layout/fragment_postres" />
+</navigation>

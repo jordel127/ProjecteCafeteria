@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menjarsFragment"
+        android:icon="@drawable/icomo_menjars"
+        android:title="Menjars" />
+    <item
+        android:id="@+id/begudesFragment"
+        android:icon="@drawable/icono_beguda"
+        android:title="Begudes" />
+    <item
+        android:id="@+id/postresFragment"
+        android:icon="@drawable/icono_postre"
+        android:title="Postres" />
+    <item
+        android:id="@+id/pagamentFragment"
+        android:icon="@drawable/icono_pagar"
+        android:title="Pagament" />
+</menu>
