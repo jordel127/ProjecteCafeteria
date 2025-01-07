@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,11 +15,11 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textViewCroquetas"
+            android:id="@+id/textViewProd1"
             android:layout_width="97dp"
             android:layout_height="29dp"
             android:layout_marginTop="36dp"
-            android:text="Gelatina"
+            android:text=""
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.158"
@@ -28,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="108dp"
-            android:text="Postres"
+            android:text="Postes"
             android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -37,23 +40,23 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textViewCanelones"
+            android:id="@+id/textViewProd4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="248dp"
-            android:text="Chesscake"
+            android:text=""
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintHorizontal_bias="0.151"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
-            android:id="@+id/textViewEnsalada"
+            android:id="@+id/textViewProd2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="112dp"
-            android:text="Gelat"
+            android:text=""
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.145"
@@ -61,28 +64,28 @@
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
-            android:id="@+id/textViewSopa"
+            android:id="@+id/textViewProd3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="176dp"
-            android:text="Melo"
+            android:text=""
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintHorizontal_bias="0.131"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/editTextNumber1"
             android:layout_width="141dp"
             android:layout_height="42dp"
             android:layout_marginTop="28dp"
             android:ems="10"
             android:inputType="number"
-            android:text="0"
+            android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.859"
-            app:layout_constraintStart_toEndOf="@+id/textViewCroquetas"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd1"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <EditText
@@ -92,10 +95,10 @@
             android:layout_marginTop="232dp"
             android:ems="10"
             android:inputType="number"
-            android:text="0"
+            android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.868"
-            app:layout_constraintStart_toEndOf="@+id/textViewCanelones"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd4"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <EditText
@@ -105,10 +108,10 @@
             android:layout_marginTop="96dp"
             android:ems="10"
             android:inputType="number"
-            android:text="0"
+            android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.885"
-            app:layout_constraintStart_toEndOf="@+id/textViewEnsalada"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd2"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <EditText
@@ -118,10 +121,10 @@
             android:layout_marginTop="160dp"
             android:ems="10"
             android:inputType="number"
-            android:text="0"
+            android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.903"
-            app:layout_constraintStart_toEndOf="@+id/textViewSopa"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd3"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <Button
@@ -139,10 +142,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="44dp"
-            android:text="10€"
-            app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+            android:text=""
+            app:layout_constraintEnd_toStartOf="@+id/editTextNumber1"
             app:layout_constraintHorizontal_bias="0.243"
-            app:layout_constraintStart_toEndOf="@+id/textViewCroquetas"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd1"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
@@ -150,10 +153,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="256dp"
-            android:text="16€"
+            android:text=""
             app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
             app:layout_constraintHorizontal_bias="0.159"
-            app:layout_constraintStart_toEndOf="@+id/textViewCanelones"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd4"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
@@ -161,10 +164,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
-            android:text="15€"
+            android:text=""
             app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
             app:layout_constraintHorizontal_bias="0.17"
-            app:layout_constraintStart_toEndOf="@+id/textViewEnsalada"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd2"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
@@ -172,12 +175,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="184dp"
-            android:text="9€"
+            android:text=""
             app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
             app:layout_constraintHorizontal_bias="0.138"
-            app:layout_constraintStart_toEndOf="@+id/textViewSopa"
+            app:layout_constraintStart_toEndOf="@+id/textViewProd3"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
+</layout>
