@@ -11,40 +11,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/ListaProductes"
-            android:layout_width="284dp"
-            android:layout_height="426dp"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="363dp"
+            android:layout_height="577dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.333" />
+            app:layout_constraintVertical_bias="0.115"
+            tools:itemCount="5"
+            tools:listitem="@layout/card_view_design" />
 
         <TextView
             android:id="@+id/textViewTotal"
             android:layout_width="115dp"
             android:layout_height="50dp"
             android:text="0€"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.783"
+            app:layout_constraintHorizontal_bias="0.787"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ListaProductes"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/recyclerview"
+            app:layout_constraintVertical_bias="0.019" />
 
         <TextView
             android:id="@+id/textViewTotal2"
             android:layout_width="115dp"
             android:layout_height="50dp"
             android:text="Total:"
+            android:textSize="40sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.212"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ListaProductes"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/recyclerview"
+            app:layout_constraintVertical_bias="0.019" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
 </layout>

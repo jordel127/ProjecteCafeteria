@@ -19,41 +19,41 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextNomRegistre"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.899" />
 
     <EditText
         android:id="@+id/editTextNomRegistre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
+        android:layout_width="376dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="232dp"
         android:ems="10"
         android:hint="Nom"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextConrasenaRegistre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="374dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNomRegistre" />
 
     <Button
         android:id="@+id/buttonCrearUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="227dp"
+        android:layout_height="58dp"
         android:layout_marginTop="48dp"
         android:text="CrearUsuario"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,13 +63,14 @@
 
     <Button
         android:id="@+id/buttonGoLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="98dp"
+        android:layout_height="41dp"
         android:layout_marginTop="132dp"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextConrasenaRegistre" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

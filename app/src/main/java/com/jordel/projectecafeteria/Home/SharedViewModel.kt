@@ -16,10 +16,8 @@ class SharedViewModel : ViewModel() {
         val existingProductIndex = currentList.indexOfFirst { it.nom == product.nom }
 
         if (existingProductIndex != -1) {
-            // Replace the existing product with the updated quantity
             currentList[existingProductIndex] = product
         } else {
-            // Add the new product
             currentList.add(product)
         }
 

@@ -39,6 +39,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.filament.android)
     val nav_version = "2.7.5"
     val lifecycle_version = "2.6.2"
 
@@ -66,4 +67,9 @@ dependencies {
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
+    // for adding recyclerview
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+
+    // for adding cardview
+    implementation ("androidx.cardview:cardview:1.0.0")
 }

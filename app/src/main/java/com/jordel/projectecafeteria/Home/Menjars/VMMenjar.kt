@@ -2,7 +2,6 @@ package com.jordel.projectecafeteria.Home.Menjars
 
 import androidx.lifecycle.ViewModel
 import com.jordel.projectecafeteria.Home.ProductesProvider
-import com.jordel.projectecafeteria.Home.SharedViewModel
 import com.jordel.projectecafeteria.Home.productesModel
 
 class VMMenjar : ViewModel() {
